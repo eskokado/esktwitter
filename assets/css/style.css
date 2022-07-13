@@ -1,0 +1,22 @@
+body {}
+
+figcaption {
+  display: none;
+}
+.cabecalho{}
+.cabecalho__logo{}
+.cabecalho__logo img{}
+
+.cabecalho__menuNavegacao{}
+.cabecalho__menuLista{}
+.cabecalho__menuItem{}
+.cabecalho__menuItem img{}
+.cabecalho__menuItem a{}
+
+.conteudoPrincipal__feed{}
+.conteudoPrincipal__tweet{}
+.tweet__foto{}
+.tweet_conteudo{}
+.tweet_conteudo h3{}
+.tweet_conteudo span{}
+.tweet_conteudo p{}
