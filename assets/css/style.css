@@ -36,8 +36,19 @@ figcaption {
 
 .conteudoPrincipal{
   width: 70%;
-  margin-top: 20px;
+  border-left: 1px solid #e7ecf0;
+  border-right: 1px solid #e7ecf0;
 }
+
+.conteudoPrincipal__titulo {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: bold;  
+}
+
+.conteudoPrincipal__formulario{}
+.conteudoPrincipal__formulario textarea{}
+.conteudoPrincipal__formulario button{}
 
 .conteudoPrincipal__feed{
 }
