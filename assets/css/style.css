@@ -3,17 +3,44 @@ body {}
 figcaption {
   display: none;
 }
-.cabecalho{}
-.cabecalho__logo{}
+.container{
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;  
+}
+.cabecalho{
+  width: 30%;
+}
+.cabecalho__logo{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 .cabecalho__logo img{}
 
 .cabecalho__menuNavegacao{}
 .cabecalho__menuLista{}
-.cabecalho__menuItem{}
-.cabecalho__menuItem img{}
-.cabecalho__menuItem a{}
+.cabecalho__menuItem{
+  margin-bottom: 15px;
+  display: flex;
+}
+.cabecalho__menuItem img{
+  margin-right: 15px;
+  width: 25px;
+}
+.cabecalho__menuItem a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
 
-.conteudoPrincipal__feed{}
+.conteudoPrincipal{
+  width: 70%;
+  margin-top: 20px;
+}
+
+.conteudoPrincipal__feed{
+}
 .conteudoPrincipal__tweet{}
 .tweet__foto{}
 .tweet_conteudo{}
