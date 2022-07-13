@@ -46,9 +46,28 @@ figcaption {
   font-weight: bold;  
 }
 
-.conteudoPrincipal__formulario{}
-.conteudoPrincipal__formulario textarea{}
-.conteudoPrincipal__formulario button{}
+.conteudoPrincipal__formulario{
+  border-top: 1px solid #e7ecf0;
+  border-bottom: 10px solid #e7ecf0;
+  text-align: right;
+}
+.conteudoPrincipal__formulario textarea{
+  padding: 20px 30px;
+  outline: none;
+  border: none;
+  resize: none;
+  width: 90%;
+  height: 30px;
+}
+.conteudoPrincipal__formulario button{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  text-align: right;
+  margin: 20px;
+  background-color: #A5D9FA;
+  color: white;
+}
 
 .conteudoPrincipal__feed{
 }
