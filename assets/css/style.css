@@ -70,10 +70,28 @@ figcaption {
 }
 
 .conteudoPrincipal__feed{
+
 }
-.conteudoPrincipal__tweet{}
-.tweet__foto{}
-.tweet_conteudo{}
-.tweet_conteudo h3{}
-.tweet_conteudo span{}
-.tweet_conteudo p{}
+.conteudoPrincipal__tweet{
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;  
+  border-bottom: 1px solid #828282;
+}
+.tweet__foto{
+  margin-left: 30px;
+}
+.tweet_conteudo{
+  margin-left: 20px;
+}
+.tweet_conteudo h3{
+  display: inline-block;
+}
+.tweet_conteudo span{
+  display: inline-block;
+  margin-left: 15px;
+  color: #e7ecf0;
+}
+.tweet_conteudo p{
+  margin-top: 10px;
+}
