@@ -70,7 +70,8 @@ figcaption {
 }
 
 .conteudoPrincipal__feed{
-
+  display: flex;
+  flex-flow: column-reverse;
 }
 .conteudoPrincipal__tweet{
   margin-top: 20px;
